@@ -63,8 +63,8 @@ text-align: center;
 .intro{
     display: flex;
     justify-content: space-between;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 13%;
+    margin-right: 13%;
     padding: 0;
 }
 .words{
@@ -136,7 +136,7 @@ font-size: 24px;
 font-weight: 900;
 letter-spacing: 0.3px;
 text-align: left;
-margin-top: 20;
+
 margin-bottom: 0%;
 }
 .card-1{
@@ -146,8 +146,8 @@ margin-bottom: 0%;
 position: absolute;
 width: 206px;
 height: 96px;
-left: 56%;
-top: 520px;
+left: 64.5%;
+top: 56%;
 border: 1px solid rgba(255, 255, 255, 0.1);
 border-radius: 12px;
 
@@ -183,8 +183,8 @@ margin-right: 20px;
 position: absolute;
 width: 193px;
 height: 98px;
-left: 78%;
-top: 235px;
+left: 81%;
+top: 26%;
 border: 1px solid rgba(255, 255, 255, 0.1);
 border-radius: 12px;
 
@@ -198,9 +198,17 @@ background: rgba(255, 255, 255, 0.1);
     font-size: 24px;
     font-weight: 900;
     letter-spacing: 0.3px;
-    text-align: left;
-    margin-top: 20;
+    text-align: center;
     margin-bottom: 0%;
+}
+.card-2-des{
+    color: rgba(255, 255, 255, 0.65);
+   
+    font-family: Inter;
+    margin-left: 25px;
+    margin-top: 5px;
+    width: 100%;
+
 }
 
 @media screen and (max-width:576px) {
@@ -211,5 +219,25 @@ background: rgba(255, 255, 255, 0.1);
       }
       .information{
         display: none;
-      }
+        margin-right: 5%;
+    margin-left: 80%;
+    }
+    .intro{
+        display: grid;
+        flex-direction: column;
+    }
+    .card-1{
+        top: 136%;
+        left: 8%;
+    }
+    .card-2{
+        top: 115%;
+        left: 50%;
+    }
+    .picture>img{
+        padding-top: 48px;
+    }
+    .information{
+        margin-left: 20%;
+    }
 }
