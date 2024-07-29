@@ -210,7 +210,58 @@ background: rgba(255, 255, 255, 0.1);
     width: 100%;
 
 }
+.habbit-title{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 48px;
+font-weight: 900;
+text-align: center;
+}
+.habits{
+    background-color: rgb(0, 0, 0);
+    padding-right: 100px;
+    padding-left: 100px;
+    height: 100%;
+    margin-top: 100px;
+    padding-top: 100px;
 
+}
+.habbit-des{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
+}
+ .exercise1>img{
+    border-radius: 50%;
+    padding-left: 30px;
+    height: 205px;
+    width: 205px;
+}
+
+
+
+.exercises{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    margin-top: 100px;
+}
+.exercise-title{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-left: 30px;
+}
+.exercise-des{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+text-align: center;
+}
 @media screen and (max-width:576px) {
    
       .hamburger{
@@ -227,7 +278,7 @@ background: rgba(255, 255, 255, 0.1);
         flex-direction: column;
     }
     .card-1{
-        top: 136%;
+        top: 144%;
         left: 8%;
     }
     .card-2{
@@ -239,5 +290,25 @@ background: rgba(255, 255, 255, 0.1);
     }
     .information{
         margin-left: 20%;
+    }
+    .exercises{
+        flex-direction: column;
+        padding: 0;
+        align-items: center;
+       margin-left: 30%;
+    }
+    .exercise-title{
+        width: 100%;
+        padding: 0;
+        margin-left: -50px;
+
+    }
+    .exercise-des{
+        padding: 0;
+        text-align: center;
+        margin-right: 100px;
+    }
+    .exercise1>img{
+        margin-left: -50px;
     }
 }
