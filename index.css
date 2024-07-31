@@ -313,6 +313,163 @@ letter-spacing: 0.3px;
 text-align: left;
 
 }
+.bmi-title{
+    margin-left: 27%;
+    text-align: left;
+    margin-top: 100px; 
+    margin-bottom: 14px ;  
+    padding-bottom: 0%;
+    font-family: Inter;
+font-size: 48px;
+font-weight: 900;
+color: rgb(255, 255, 255);
+font-size: 48px;
+font-weight: 900;
+}
+.bmi-des{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+letter-spacing: 0.3px;
+text-align: left;
+margin-left: 27%;
+margin-top: 0%;
+margin-bottom: 100px;
+}
+.chart{
+    height: 487px;
+    width: 100%;
+    background: rgb(34, 34, 34);
+    display: flex;
+    justify-content: space-between;
+    
+}
+.chart-title{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 28px;
+font-weight: 900;
+margin-left: 27%;
+margin-top: 50px;
+}
+.calculator{
+    margin-left: 120px;
+}
+
+tr{
+    
+    display: flex;
+    color: aliceblue;
+    
+}
+table{
+    
+    
+    display: flex;
+    margin-left: 27%;
+    
+}
+td{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    font-weight: 700;
+    width: 140px;
+    
+}
+
+.p{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+padding-left: 10px;
+padding-right: auto;
+padding-top: 10px;
+padding-bottom: 10px;
+margin: 0;
+
+}
+.pt{
+    color: rgb(255, 255, 255)s;
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+padding-left: 10px;
+padding-right: auto;
+padding-top: 10px;
+padding-bottom: 10px;
+margin: 0;
+}
+.cyb{
+    height: 386px;
+    width: 577px;
+    margin-right: 189px;
+}
+.cyb-title{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 28px;
+font-weight: 900; 
+text-align: left;
+margin-top: 45px;
+margin-left: 12px;
+}
+.cyb-des{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+letter-spacing: 0.3px;
+text-align: left;
+margin: 0%;
+margin-left: 12px;
+}
+.input1, .input2, .input3, .input4, .input5{
+    border-radius: 8px;
+    width: 280px;
+    height: 50px;
+    margin-left: 12px;
+    margin-bottom: 12px;
+background: rgba(255, 255, 255, 0.1);
+border: 0;
+
+color: rgba(255, 255, 255, 0.6);
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0px;
+text-align: left;
+padding-left: 12px;
+justify-content: center;
+
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) ;
+    margin-top: 35px;
+
+}
+.input5{
+    width: 580px;
+}
+i{
+    position: relative;
+    
+}
+.i1{top: -75px;
+    left: 229px;
+
+}
+.i2{
+    top: -74px;
+    left: 525px;
+}
+.cyb>button{
+    margin-left: 15px;
+    margin-top: -30px;
+}
 @media screen and (max-width:576px) {
    
       .hamburger{
@@ -379,5 +536,35 @@ text-align: left;
         height: 500px;
         margin-bottom: 40px;
     }
+    .chart{
+        flex-direction: column;
+        width: 100%;
+        margin-left: 20px;
+        height: 780px;
+    }
+    .calculator{
+        margin-left: 20px;
+    }
+    .chart-title{
+        margin-left: 0;
+    }
+    table{
+        margin-left: 0px;
+    }
+    td{
+        width: 200px;
+    }
+    .cyb-title{
+        margin-top: 0;
+    }
+    .input1, .input2, .input3, .input4, .input5 {
+        width: 255px;
 
+    }
+    .input5{
+        width: 543px;
+    }
+    .i2{
+        left: 517px;
+    }
 }
